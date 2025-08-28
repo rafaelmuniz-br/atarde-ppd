@@ -1,7 +1,8 @@
 <template>
   <main class="home">
     <indexHeroSection-Index />
-    <indexCategoriasConcurso />
+    <indexTextImageSection-PremioEco />
+    <!--<indexCategoriasConcurso />-->
     <indexDepoimentos />
   </main>
 </template>
