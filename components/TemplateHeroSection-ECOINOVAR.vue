@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 20px 30px;
+  padding: 100px 20px 0px;
   background-image: url('/public/herosection-background.png'); /* Caminho para sua imagem PNG */
   background-size: cover; /* Faz a imagem cobrir toda a área */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
