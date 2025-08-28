@@ -30,8 +30,14 @@
     {
       img: '/depoimento-Anderson.png', // Substitua por sua imagem de pessoa real
       name: 'Anderson Moreira',
-      description: 'Os projetos escolares sustentáveis são de suma importância, não apenas por servir de estímulo à preservação do meio ambiente e redução de impactos, mas principalmente pela conscientização individual e coletiva. A escola é um lugar de formação de líderes e futuramente serão estes jovens que estarão à frente de grandes empresas e ocupando importantes cargos políticos.',
+      description: 'A educação é essencial na formação de cidadãos conscientes, críticos e que respeitem o meio ambiente. Ao aprendermos sobre o meio ambiente e consumo consciente, entendemos como nossas atitudes impactam o planeta. A escola por meio de projetos sustentáveis pode transformar teoria em ação, afinal, com conhecimento fica mais fácil criar soluções sustentáveis e cobrar políticas que cuidem do futuro de todos.',
       title: 'Professor de biologia'
+    },
+    {
+      img: '/depoimento-Nilza.png', // Substitua por sua imagem de pessoa real
+      name: 'Nilza Carolina',
+      description: 'Os projetos escolares sustentáveis são de suma importância, não apenas por servir de estímulo à preservação do meio ambiente e redução de impactos, mas principalmente pela conscientização individual e coletiva. A escola é um lugar de formação de líderes e futuramente serão estes jovens que estarão à frente de grandes empresas e ocupando importantes cargos políticos.',
+      title: 'Geóloga'
     }
   ]);
   </script>
