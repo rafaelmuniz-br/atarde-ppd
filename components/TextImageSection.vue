@@ -1,5 +1,9 @@
 <template>
-  <section class="text-image-section" :class="{ reverse }">
+  <section
+  class="text-image-section"
+  :class="{ reverse }"
+  :style="{ backgroundColor }"
+>
     <div class="text-content">
       <p class="subtitle" v-if="subtitle" v-html="subtitle"></p>
       <h2 v-html="title"></h2>
@@ -14,17 +18,22 @@
 </template>
  
 <script setup>
-  defineProps({
-    title: String,
-    subtitle: String,
-    description: String,
-    buttonText: String,
-    buttonLink: String,
-    imageSrc: String,
-    imageAlt: String,
-    reverse: Boolean,
-  })
+defineProps({
+  title: String,
+  subtitle: String,
+  description: String,
+  buttonText: String,
+  buttonLink: String,
+  imageSrc: String,
+  imageAlt: String,
+  reverse: Boolean,
+  backgroundColor: {
+    type: String,
+    default: 'white'
+  }
+})
 </script>
+
 
 <style scoped>
   .text-image-section {
@@ -32,8 +41,6 @@
     justify-content: flex-end;     
     align-items: center;
     gap: 80px;                    
-    
-    background: white;
     width: 100%;
     box-sizing: border-box;
     flex-direction: row;

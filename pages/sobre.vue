@@ -1,6 +1,6 @@
 <template>
   <main class="sobre">
-    <sobreHeroSection-Sobre />
+    <sobreHeroSection-SobreOPrograma />
     <sobreFazemos />
     <br><br><br><br><br>
     <sobreImpacto />
