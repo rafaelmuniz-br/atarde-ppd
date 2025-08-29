@@ -8,7 +8,7 @@
       <li>Cidadania</li>
       <li>Comunicação</li>
       <li>Inovação</li>"
-    imageSrc="/fundamental1-grande.svg"
+    imageSrc="/premiada.png"
     imageAlt="Sobre o programa"
     buttonText=""
     buttonLink=""
