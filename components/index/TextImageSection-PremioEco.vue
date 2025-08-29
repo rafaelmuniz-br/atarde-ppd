@@ -1,7 +1,7 @@
 <template>
     <TextImageSection
       title="Prêmio Ecoinovar"
-      subtitle=""
+      subtitle="O CONCURSO"
       description="O Prêmio EcoInovar é voltado para professores e estudantes da rede pública estadual de ensino, incentivando o desenvolvimento e a implementação de projetos científicos inovadores e sustentáveis.  A premiação abrange escolas e comunidades conectando educação, ciência e sustentabilidade para transformar realidades locais."
       imageSrc="/premio-eco.png"
       imageAlt="Sobre o EcoInovar"

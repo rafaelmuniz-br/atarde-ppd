@@ -1,8 +1,9 @@
 <template>
   <section class="text-image-section" :class="{ reverse }">
     <div class="text-content">
-      <h2 v-html="title"></h2>
       <p class="subtitle" v-if="subtitle" v-html="subtitle"></p>
+      <h2 v-html="title"></h2>
+      
       <p v-if="description" class="description" v-html="description"></p>
       <a v-if="buttonText && buttonLink" :href="buttonLink" target="_blank" class="btn-primary">{{ buttonText }}</a>
     </div>
@@ -52,9 +53,9 @@
     font-weight: 700;
   }
   .text-content .subtitle {
-    font-size: 1.2rem;
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    color: #0C4874;
+    color: #747277;
     margin-bottom: 10px;
   }
   .text-content .description {
