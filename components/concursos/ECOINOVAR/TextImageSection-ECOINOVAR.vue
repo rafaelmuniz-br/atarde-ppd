@@ -7,7 +7,7 @@
     imageSrc="/science-kid.png"
     imageAlt="Sobre o programa"
     buttonText="Baixe o regulamento"
-    buttonLink="/"
+    buttonLink="/ANEXO3.docx"
     :reverse="false"
   />
 </template>

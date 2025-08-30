@@ -21,7 +21,7 @@
     </div>
 
     <!-- ✅ Download Button -->
-    <a href="/ANEXO3.docx" class="download-button">
+    <a href="https://docs.google.com/document/d/14jq8N9_nNxhMr9lU3sb2P-5Kqvv7ojX61QX1sYeuQ1A/edit?tab=t.0" target="_blank" class="download-button">
       Inscreva-se
     </a>
   </section>
