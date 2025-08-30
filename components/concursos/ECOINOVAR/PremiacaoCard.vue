@@ -84,7 +84,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.95rem;
+    font-size: 2rem;
     line-height: 1.5;
     letter-spacing: 0%;
     color: #f9f9f9;

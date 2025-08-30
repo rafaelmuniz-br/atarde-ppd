@@ -22,19 +22,19 @@
               <p><strong>Qualidade da água:</strong> Monitoramento, tratamento e redução da poluição hídrica.</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/fish-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Biodiversidade aquática:</strong> Conservação de espécies, recuperação de habitats e combate a espécies invasoras.</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/wave-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Recursos hídricos:</strong> Uso eficiente da água, reuso e gestão sustentável.</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/energy-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Tecnologias sustentáveis:</strong> Desenvolvimento de soluções inovadoras para transporte aquático, pesca sustentável, energias renováveis geradas na água, entre outros.</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/book-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Conscientização e educação ambiental:</strong> Campanhas e ações que promovem a responsabilidade socioambiental em relação aos ambientes aquáticos.</p>
             </li>
           </ul>
@@ -46,27 +46,27 @@
           </p>
           <ul>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/recicle-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Gestão de resíduos:</strong> Redução, reutilização, reciclagem e tratamento de resíduos sólidos.</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/energy-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Energias renováveis:</strong> Desenvolvimento e aplicação de fontes de energia limpa (solar, eólica, biomassa, etc.).</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/agriculture-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Agricultura sustentável:</strong> Práticas agrícolas de baixo impacto, segurança alimentar e valorização de produtos locais.</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/soil-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Conservação do solo:</strong> Prevenção da erosão, recuperação de áreas degradadas e manejo sustentável.</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/beach-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Biodiversidade terrestre:</strong> Proteção de flora e fauna, reflorestamento e corredores ecológicos.</p>
             </li>
             <li>
-              <img src="/water-drop-icon.svg" alt="Ícone de gota de água" class="icon" />
+              <img src="/buildings-icon.svg" alt="Ícone de gota de água" class="icon" />
               <p><strong>Construção e urbanismo sustentável:</strong> Soluções para edificações e cidades mais ecológicas.</p>
             </li>
           </ul>

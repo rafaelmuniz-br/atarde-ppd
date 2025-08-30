@@ -5,7 +5,11 @@
     </div>
 
     <div class="what-we-do-grid">
-      <div class="what-we-do-card" v-for="(item, index) in whatWeDoItems" :key="index">
+      <div
+        class="what-we-do-card"
+        v-for="(item, index) in whatWeDoItems"
+        :key="index"
+      >
         <div class="icon-wrapper">
           <img :src="item.icon" :alt="item.title" class="icon-drop" />
         </div>
@@ -15,38 +19,43 @@
         </div>
       </div>
     </div>
+
+    <!-- ✅ Download Button -->
+    <a href="/ANEXO3.docx" class="download-button">
+      Inscreva-se
+    </a>
   </section>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref } from 'vue'
 
 const whatWeDoItems = ref([
   {
-    icon: '/water-drop-icon.svg',
+    icon: '/solution-icon.svg',
     title: '',
-    description: 'Estimular soluções criativas para desafios ambientais e sociais.'
+    description: 'Estimular soluções criativas para desafios ambientais e sociais.',
   },
   {
-    icon: '/water-drop-icon.svg',
+    icon: '/chat-icon.svg',
     title: '',
-    description: 'Fomentar a inovação e o pensamento crítico no ambiente escolar e na comunidade.'
+    description: 'Fomentar a inovação e o pensamento crítico no ambiente escolar e na comunidade.',
   },
   {
-    icon: '/water-drop-icon.svg',
+    icon: '/community-icon.svg',
     title: '',
-    description: 'Promover o engajamento comunitário e valorizar a cultura local.'
+    description: 'Promover o engajamento comunitário e valorizar a cultura local.',
   },
   {
-    icon: '/water-drop-icon.svg',
+    icon: '/tree-icon.svg',
     title: '',
-    description: 'Reconhecer e dar visibilidade a projetos com potencial de impacto positivo na sociedade e no meio ambiente.'
-  }
-]);
+    description:
+      'Reconhecer e dar visibilidade a projetos com potencial de impacto positivo na sociedade e no meio ambiente.',
+  },
+])
 </script>
 
 <style scoped>
-/* Estilos mantidos do código anterior */
 .what-we-do {
   display: flex;
   flex-direction: column;
@@ -65,7 +74,6 @@ const whatWeDoItems = ref([
   font-family: 'Boldonse';
 }
 
-/* Alteração para o layout padrão (desktop) */
 .what-we-do-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -113,37 +121,52 @@ const whatWeDoItems = ref([
   line-height: 1.5;
 }
 
-/*
-  Ajustes de responsividade para telas pequenas
-*/
+/* ✅ Download Button Style */
+.download-button {
+  display: inline-block;
+  margin-top: 50px;
+  background-color: #dbdc39;
+  color: #006634;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.download-button:hover {
+  background-color: #d4e157;
+}
+
+/* Responsiveness */
 @media (max-width: 768px) {
   .what-we-do {
-    padding: 60px 0; /* Ajusta o padding para a rolagem */
+    padding: 60px 0;
     max-width: 100vw;
-    overflow-x: hidden; /* Garante que a rolagem horizontal não saia do container */
+    overflow-x: hidden;
   }
 
   .what-we-do-header {
-    padding: 0 20px; /* Adiciona padding para o título */
+    padding: 0 20px;
   }
 
-  /* Aplica Flexbox para a rolagem horizontal */
   .what-we-do-grid {
-    display: flex; /* Mudança para flexbox */
-    flex-wrap: nowrap; /* Impede a quebra de linha */
+    display: flex;
+    flex-wrap: nowrap;
     gap: 20px;
-    padding: 0 20px; /* Adiciona padding para os cards */
-    overflow-x: auto; /* Habilita a rolagem horizontal */
+    padding: 0 20px;
+    overflow-x: auto;
     width: 100%;
-    -webkit-overflow-scrolling: touch; /* Melhora a rolagem em iOS */
-    justify-content: flex-start; /* Alinha os cards à esquerda */
+    -webkit-overflow-scrolling: touch;
+    justify-content: flex-start;
   }
 
-  /* Ajustes dos cards em telas menores */
   .what-we-do-card {
-    min-width: 250px; /* Define uma largura mínima fixa para cada card */
-    max-width: 250px; /* Mantém a largura fixa */
-    flex-shrink: 0; /* Impede que os cards encolham */
+    min-width: 250px;
+    max-width: 250px;
+    flex-shrink: 0;
   }
 
   .what-we-do-header h2 {
@@ -155,15 +178,18 @@ const whatWeDoItems = ref([
   .what-we-do {
     padding: 40px 0;
   }
+
   .what-we-do-header {
     padding: 0 10px;
   }
+
   .what-we-do-grid {
     padding: 0 10px;
     gap: 15px;
   }
+
   .what-we-do-card {
-    min-width: 200px; /* Reduz a largura mínima em telas muito pequenas */
+    min-width: 200px;
     max-width: 200px;
   }
 }

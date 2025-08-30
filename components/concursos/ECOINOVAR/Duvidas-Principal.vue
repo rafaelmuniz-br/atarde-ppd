@@ -12,35 +12,35 @@
   const faqItems = [
       { 
         question: 'Quem pode participar do concurso?',
-        answer: 'Estudantes do Ensino Fundamental (anos iniciais e finais), Ensino Médio e EJA, regularmente matriculados em escolas municipais parceiras do Programa A TARDE Educação ou em escolas da rede estadual da Bahia.',
+        answer: 'Professores e estudantes da rede pública estadual de ensino, abrangendo as dimensões escolar e comunitária nos municípios de Jequié, Irecê, Maracás, Santaluz, Salvador, Candeias, Ilhéus e Candeias.',
       },
       {
-        question: 'Quando começam e terminam as inscrições?',
-        answer: 'As inscrições estarão abertas de <strong>7 de agosto a 10 de outubro de 2025.</strong>',
+        question: 'Como faço para me inscrever?',
+        answer: 'A inscrição deve ser feita por meio do formulário disponível no botão “Inscreva-se” deste site. É necessário que o(a) professor(a) responsável pela equipe leia o regulamento e preencha todas as informações corretamente.',
       },
       {
-        question: 'Preciso me inscrever sozinho(a)?',
-        answer: 'Sim. A participação é individual, mas com o acompanhamento de um(a) professor(a), que orienta a produção.',
+        question: 'Preciso baixar o regulamento?',
+        answer: 'Sim. O regulamento está disponível para download no botão “baixe o regulamento” e deve ser lido com atenção antes do envio do projeto.',
       },
       {
-        question: 'Quais são os formatos de produção aceitos?',
-        answer: 'Os formatos variam conforme a categoria: tirinhas, videorreportagem, artigo de opinião e crônica.',
+        question: 'Até quando posso me inscrever?',
+        answer: 'As inscrições estarão abertas até 18/09, conforme calendário oficial disponível no regulamento.',
       },
       {
-        question: 'Como faço para enviar minha produção?',
-        answer: 'O envio será feito por meio da plataforma indicada no site, no ato da inscrição. Instruções detalhadas estarão disponíveis no regulamento.',
+        question: 'Como será feita a seleção dos projetos?',
+        answer: 'Os projetos serão avaliados por uma comissão formada por especialistas nas áreas de educação, sustentabilidade e comunicação. Os critérios de avaliação estão detalhados no regulamento.',
       },
       {
-        question: 'Haverá premiação?',
-        answer: 'Sim! Alunos(as) e professores(as) autores das produções vencedoras receberão prêmios como notebook, tablet, smartphone, hospedagem e placas de reconhecimento. A premiação acontecerá em um evento especial realizado em Salvador.',
+        question: 'Quantos alunos podem participar por equipe?',
+        answer: 'Cada equipe poderá ser composta por até três estudantes, acompanhados por um(a) professor(a) responsável.',
       },
       {
-        question: 'Posso participar em grupo?',
-        answer: 'Não. A participação é individual e cada estudante deve enviar sua própria produção.',
+        question: 'É preciso enviar o projeto físico ou digital?',
+        answer: 'Todos os materiais deverão ser enviados digitalmente, por meio do formulário de inscrição. Não é necessário o envio físico.',
       },
       {
-        question: 'Onde encontro o regulamento completo?',
-        answer: 'O regulamento está disponível para download na própria página do concurso ou através desse link: <a href="/regulamento-CCJJ-2025.pdf" target="_blank" rel="noopener noreferrer"><strong>Regulamento completo.</strong></a>',
+        question: 'Como saberei se fui selecionado(a)?',
+        answer: 'Os resultados serão divulgados neste site e nas redes sociais do programa, conforme cronograma de premiação.',
       },
     ];
 </script>

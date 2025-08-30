@@ -23,17 +23,17 @@
   
   const whatWeDoItems = ref([
     {
-      icon: '/water-drop-icon.svg', // Substitua pelo caminho real do seu ícone
+      icon: '/hat-icon.svg', // Substitua pelo caminho real do seu ícone
       title: 'Formação e cultura:',
       description: 'Oficinas, projetos e concursos educativos'
     },
     {
-      icon: '/water-drop-icon.svg',
+      icon: '/content-icon.svg',
       title: 'Conteúdo multiplataforma:',
       description: 'Materiais distribuídos em diferentes mídias.'
     },
     {
-      icon: '/water-drop-icon.svg',
+      icon: '/student-icon.svg',
       title: 'Engajamento escolar:',
       description: 'Estudantes, professores, gestores e comunidade unidos pelo aprendizado.'
     }
@@ -85,11 +85,11 @@
   }
   
   .icon-wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
   .icon-drop {
-    width: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+    width: 40px; /* Ajuste o tamanho do ícone conforme necessário */
     height: auto;
   }
   
